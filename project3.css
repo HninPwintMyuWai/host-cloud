@@ -103,6 +103,161 @@ body {
 	padding: 15px;
 }
 
-.bd_logo > img{
+/*.bd_logo > img{
 	background-repeat: repeat-y;
+}
+*/
+.body_logo{
+	background: lightgrey;
+	margin-top: -22px;
+}
+
+.body_logo_heaeder{
+	color: black;
+	text-align: center;
+
+}
+
+.body_logo_heaeder{
+	background-repeat: repeat-x;
+}
+
+.bd_logo{
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+.bd_logo_img1{
+	margin-left: 450px;
+}
+
+.bd_logo_img2{
+	margin-left: 50px;
+}
+
+.bd_logo_img3{
+	margin-left: 50px;
+}
+
+
+.host_service{
+	width: 80%;
+	/*height: 300px;*/
+	margin: 0 auto;
+}
+
+.host_service > h4{
+	color: royalblue;
+	/*text-align: center;*/
+}
+
+
+.db_block_container{
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	margin: 80px auto;
+	/*align-items: center;*/
+}
+
+.block1{
+	/*width: 20%;*/
+	background: whitesmoke;
+	text-align: center;
+	padding: 20px;
+}
+
+.center_block1 {
+	margin: 0 15px;
+}
+
+.database_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	background: rgba(0, 188, 212, 0.6);
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.database_container:hover {
+	background: rgba(0, 188, 212, 1);
+}
+
+.database_icon {
+	color: #fff;
+	font-size: 20px;
+}
+
+/*.block2{
+	width: 25%;
+	background: whitesmoke;
+	
+}
+
+.block3{
+	width: 25%;
+	background: whitesmoke;
+	
+}
+*/
+
+.host_plans{
+	background: url('host_cloud_img2.jpg');
+	height: 500px;
+}
+
+.host_plans > h1{
+	text-align: center;
+	color: white;
+}
+
+.host_plans > p{
+	text-align: center;
+	color: white;
+}
+
+.plan_block_container{
+	background: white;
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+
+	margin-top: -50px;
+	padding-top: -50px;
+}
+
+.basic_cloud{
+	width: 20%;
+	background: white;
+	margin-left: 400px;
+	margin-top: -50px;
+	margin-right: 20px;
+
+}
+
+.cloud_vps{
+	width: 20%;
+	background: white;
+	margin-top: -50px;
+	margin-right: 20px;
+}
+
+.advanced_cloud{
+	width: 20%;
+	background: white;
+	margin-top: -50px;
+
+
+}
+
+.price_btn {
+	background: green;
+	padding: 15px;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
 }
